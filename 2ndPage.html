@@ -1,55 +1,40 @@
 <html>
-  <style>
+ <style>
     body{
       background-color:#66b3ff;
     }
-    p{
-      font-family:Monospace;
-      color:lightblue;
-      text-size:20px;
-      text-align:center;
-    }
-    h1{
-      font-family:Monospace;
-      color:lightblue;
-      text-align:center;
-      text-size:50px;
-    }
-    ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #e6f2ff;
+a{
+ align: center;
+ padding:55px;
+ background-color:#66b3ff;
+ text-align: center;
+ font-family: Monospace;
+ text-size: 50px;
+ color: lightblue;
+ line-height: 20;
 }
-  li {
-  float: left;
-}
-
-a {
-  display: block;
-  padding: 8px;
-  background-color: #e6f2ff;
-  font-family: Monospace;
-  text-align: center;
-  color: lightblue;
-}
-  li a:hover {
-  background-color: #4d88ff;
+.title{
+ color: lightblue;
+ text-align: center;
+ font-family: Monospace;
+ text-size: 75px;
+ text-weight: bold;
 }
   </style>
   <head>
-    <title> This is the 2nd webpage </title>
-  </head> 
   <body>
-    <h1> This is a title </h1>
-    <ul>
-  <li><a href="index.html">1st page</a></li>
-  <li><a href="2ndPage.html">you're here</a></li>
-  <li><a href="3rdPage.html">3rd page</a></li>
-    </ul>
-    <p> This is text. TextTextTextTextTextTextTextTextText but i put this here so that I won't get confused on which page is which</p>
+   <table align = center width = 100%>
+    <tr>
+      <td colspan = "3" class = "title"> This is the title</td>
+    </tr>
+    <tr> 
+     <td><a href = "2ndPage.html"> this is the 2nd page </a></td>
+     <td><a href = "3rdPage.html"> this is the 3rd page </a></td>
+     <td><a href = "4thPage.html"> This is the 4th page </a></td>
+    </tr>
+    <tr>
+      <td colspan = "3" class = "title" > this is the footer</td>
+    </tr>
+   </table>
   </body>
 </html>
