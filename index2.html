@@ -1,12 +1,41 @@
-<html>
+  <html>
  <style>
     body{
       background-color:#d6f5f5;
     }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3c9b9b;
+  width: 100%;
+  position: sticky;
+  height: 70px;
+  text-align:center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: #3c9b9b;
+}
+
 a{
  align: center;
- padding-left:132px;
- padding-right:132px;
+ padding-left:140px;
+ padding-right:140px;
  padding-top:40px;
  padding-bottom:40px;
  background-color:white;
@@ -14,11 +43,16 @@ a{
  font-family: Monospace;
  text-size: 50px;
  color: lightblue;
- line-height: 20;
+ line-height: 8;
 }
- a:hover{
+a:hover{
    background-color: lightblue ;
    color: white;
+}
+h1 {
+  color: lightblue;
+  font-family: Monospace;
+  text-size: 30px;
 }
 .title{
  background-color: white;
@@ -32,20 +66,7 @@ a{
  text-size: 75px;
  text-weight: bold;
 }
-.body{
- background-color:white;
- color: lightblue;
- padding-top: 200px;
- padding-bottom:200px;
- padding-left: 250px;
- padding-right: 250px;
- text-align: center;
- font-family: Monospace;
- text-size: 75px;
- text-weight: bold;
- float: bottom
-}
- .footer{
+.footer{
  background-color: white;
  color: lightblue;
  padding-top: 35px;
@@ -57,20 +78,61 @@ a{
  text-size: 75px;
  text-weight: bold;
 }
+dl {
+     text-align:left;
+}
+dt {
+     font-weight:bold;
+}
+dd {
+     line-height:25px;
+}
+.body{
+ background-color:white;
+ color: lightblue;
+ padding-top: 30px;
+ padding-bottom:30px;
+ padding-left: 50px;
+ padding-right: 450px;
+ text-align: center;
+ font-family: Monospace;
+ text-size: 75px;
+ text-weight: bold;
+}
   </style>
   <head>
   <body>
    <table align = center width = 100%>
     <tr>
-      <td colspan = "3"><img src = "https://i.imgur.com/P4vZzCI.jpeg" width = "100%" height = "15%"></img></td>
-    </tr>
-    <tr> 
-     <td><a href = "index.html"> this is the 1st page </a></td>
-     <td><a href = "2ndPage.html"> this is the 2nd page </a></td>
-     <td><a href = "3rdPage.html"> This is the 3rd page </a></td>
+      <td colspan = "3"><img src = "https://imgur.com/7c7d2bc0-010c-4bcd-8696-91d938a43154" width = "100%" height = "15%"></img></td>
     </tr>
     <tr>
-      <td colspan = "3" class = "body" > text text text anyways this is the fourth page if you care.</td>
+	<ul>
+          <li><a href="index.html"> Reducing Environmental Impact </a></li>
+	 <li><a href= "index2.html">Reducing Environmental Impact</a></li>
+       </ul>
+    </tr>
+    <tr> 
+     <td><a href = "index.html"> you're here! </a></td>
+     <td><a href = "2ndPage.html"> Harm </a></td>
+     <td><a href = "3rdPage.html"> Negative Effects </a></td>
+    </tr>
+     <tr>
+       <td colspan = "3" class = "footer"><h1>Environmental Impact</h1></td>
+     </tr>
+    <tr>
+      <td colspan = "3" class = "body" >
+        <dl>
+	  <dt><h1> Harmful Effects </h1></dt>
+          <dt><h2> What are the environmental consequences of computer device production? </h2></dt>
+	  <dt>Resource Extraction:</dt>
+	  <dd>Mining for metals such as lithium, cobalt, and rare earth elements (the things that are needed to produce computer parts.) can damage ecosystems and lead to habitat destruction!</dd>
+	  <dt>Over consumption: </dt>
+	  <dd>Tons of upgrades and changes made in a short period of time together leads to more devices being produced, which leads to more waste in landfills!</dd>
+	  <dt>Energy:</dt>
+	  <dd>The manufacturing process for making computers itself uses tons of electricity and mostly non-renewable resources (minerals, plastic, oil, etc.)</dd>
+        </dl>
+      </td>
     </tr>
     <tr>
       <td colspan = "3" class = "footer"> Call us at: +1 800-skibidi</td>
@@ -78,4 +140,3 @@ a{
    </table>
   </body>
 </html>
-
