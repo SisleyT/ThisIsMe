@@ -38,7 +38,8 @@ ul {
 
 li a {
   display: block;
-  color: #000;
+  color: #ccf2ff;
+  font-family: "Times New Roman", Times, serif;
   padding: 8px 16px;
   text-decoration: none;
 }
@@ -52,11 +53,11 @@ li:last-child {
 }
 
 li a.active {
-  background-color: #04AA6D;
+  background-color: #1ac6ff;
   color: white;
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color:#0086b3;
   color: white;
 }
