@@ -9,7 +9,7 @@ ul {
   padding: 0;
   width: 10%;
   background-color: #e6ffff;
-  position: fixed,right;
+  position: fixed;
   height: 100%;
   overflow: auto;
 }
