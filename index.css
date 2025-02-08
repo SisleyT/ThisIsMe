@@ -5,7 +5,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  font-family: "Lucida Console", monospace;
+ font-family: "Lucida Console", "Courier New", monospace;
   padding: 0;
   width: 12%;
   background-color: #e6ffff;
@@ -45,7 +45,7 @@ li a:hover:not(.active) {
   font-size:30px;
   text-align: center;
   background-color: #e6ffff;
-  font-family: "Lucida Console", monospace;
+ font-family: "Lucida Console", "Courier New", monospace;
   width: 460px;
   height:150px;
 }
@@ -54,7 +54,7 @@ li a:hover:not(.active) {
 }
 .smalltext {
   font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+ font-family: "Lucida Console", "Courier New", monospace;
 }
 .whitebox {
   padding: 20px;
