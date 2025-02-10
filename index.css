@@ -53,7 +53,7 @@ li a:hover:not(.active) {
 .whitetext {
   font-size:30px;
   text-align: center;
-  background-color: 000;
+  background-color: #80ffff;
  font-family: "Lucida Console", "Courier New", monospace;
   width: 460px;
   height:150px;
@@ -72,6 +72,6 @@ li a:hover:not(.active) {
 }
 .bluebox {
   padding: 50px;
-  background-color: ##80ffff;
+  background-color: #80ffff;
 }
 
