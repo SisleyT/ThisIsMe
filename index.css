@@ -49,6 +49,16 @@ li a:hover:not(.active) {
   width: 460px;
   height:150px;
 }
+
+.whitetext {
+  font-size:30px;
+  text-align: center;
+  background-color: 000;
+ font-family: "Lucida Console", "Courier New", monospace;
+  width: 460px;
+  height:150px;
+}
+
 .sidelines {
   border:10px solid  #e6ffff;
 }
