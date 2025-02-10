@@ -70,3 +70,7 @@ li a:hover:not(.active) {
   padding: 20px;
   background-color: #ffffff;
 }
+.pinkbox {
+  padding: 20px;
+  background-color: #e6ffff;
+}
